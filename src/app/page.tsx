@@ -4,6 +4,7 @@ import QuranLearningSection from './components/SectionFirst';
 import CourseSection from './components/CoreValue';
 import FAQItem from './components/Faq';
 import InstructorSection from './components/Team';
+import NewsSection from './components/NewsSection';
 // import ServicesOverview from '@/components/ServicesOverview';
 // import UpcomingEvents from '@/components/UpcomingEvents';
 // import Testimonials from '@/components/Testimonials';
@@ -22,14 +23,8 @@ export default function HomePage() {
       <QuranLearningSection />
       <CourseSection />
       <InstructorSection />
+      <NewsSection />
       <FAQItem />
-   
-      
-      
-      {/* <ServicesOverview />
-      <UpcomingEvents />
-      <Testimonials />
-      <NewsSection /> */}
     </>
   );
 }

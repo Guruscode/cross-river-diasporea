@@ -13,9 +13,10 @@ export default function HeroSection() {
         <div className="grid md:grid-cols-2 gap-16 items-center">
           {/* Left Side Content */}
           <div className="relative z-10 space-y-6">
-            <div className="inline-block px-3 py-1 text-xs font-medium tracking-wider text-blue-600 bg-blue-50 rounded-full">
-              Cross River State
-            </div>
+          <div className="inline-block px-5 py-2 text-lg font-medium tracking-wider text-blue-600 bg-blue-50 rounded-full">
+            Cross River State
+          </div>
+
             
             <h1 className="text-5xl md:text-6xl font-bold leading-tight">
               Diaspora
@@ -61,7 +62,7 @@ export default function HeroSection() {
               </div>
             </div>
             
-            <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-yellow-400 rounded-full flex items-center justify-center text-white font-bold z-20 shadow-lg transform rotate-12">
+            <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-red-400 rounded-full flex items-center justify-center text-white font-bold z-20 shadow-lg transform rotate-12">
               <span className="transform -rotate-12">Join Us</span>
             </div>
           </div>

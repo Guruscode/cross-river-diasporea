@@ -105,14 +105,14 @@ export default function Footer() {
                 <input
                   type="email"
                   placeholder="Your email"
-                  className="px-4 py-3 w-full rounded-l-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                  className="px-4 py-3 w-full rounded-l-lg text-white focus:outline-none focus:ring-2 focus:ring-white"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required
                 />
                 <button 
                   type="submit"
-                  className="bg-yellow-400 text-gray-900 font-medium px-6 py-3 rounded-r-lg hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-400 transition-colors"
+                  className="bg-red-400 text-white font-medium px-6 py-3 rounded-r-lg hover:bg-red-500 focus:outline-none focus:ring-2 focus:ring-red-400 transition-colors"
                 >
                   Subscribe
                 </button>
@@ -130,7 +130,7 @@ export default function Footer() {
                   <Link 
                     key={name} 
                     href={url} 
-                    className="flex items-center text-gray-400 hover:text-yellow-400 transition-colors"
+                    className="flex items-center text-gray-400 hover:text-red-400 transition-colors"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
