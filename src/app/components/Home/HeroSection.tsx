@@ -46,13 +46,15 @@ export default function HeroSection() {
             <div className="relative rounded-2xl overflow-hidden shadow-xl group">
               <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-blue-400 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-500"></div>
               <div className="relative bg-white rounded-2xl overflow-hidden p-1">
-                <Image
-                  src="/hero1.jpg" 
-                  alt="Cross Riverians abroad"
-                  width={640}
-                  height={480}
-                  className="rounded-xl object-cover w-full h-96 transition-transform duration-700 hover:scale-105"
-                />
+              <Image
+              src="/hero1.jpg" 
+              alt="Cross Riverians abroad"
+              width={640}
+              height={480}
+              priority
+              className="rounded-xl object-cover w-full h-[38rem] transition-transform duration-700 ease-in-out hover:scale-105"
+            />
+
                 <div className="absolute bottom-6 left-6 bg-white/90 text-blue-700 px-4 py-2 rounded-lg text-sm font-medium shadow-lg backdrop-blur-sm">
                   Building Bridges Across Borders
                 </div>
