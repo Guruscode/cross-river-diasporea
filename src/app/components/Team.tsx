@@ -18,7 +18,7 @@ const commissionMembers = [
     id: 3,
     name: 'Eyobong Ita',
     title: 'Commission Member',
-    image: '/avatar.jpg',
+    image: '/team-1.jpeg',
   },
   {
     id: 4,
@@ -59,7 +59,7 @@ const TeamSection = () => {
           {commissionMembers.map((member) => (
             <div key={member.id} className="group">
               <div className="relative overflow-hidden rounded-2xl shadow-lg transition-all duration-300 group-hover:shadow-xl">
-                <div className="relative h-80 w-full">
+                <div className="relative h-150 w-full">
                   <Image
                     src={member.image}
                     alt={member.name}

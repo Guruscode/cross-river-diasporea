@@ -51,7 +51,7 @@ export default function HeroSection() {
                   alt="Cross Riverians abroad"
                   width={640}
                   height={480}
-                  className="rounded-xl object-cover w-full h-full transition-transform duration-700 hover:scale-105"
+                  className="rounded-xl object-cover w-full h-96 transition-transform duration-700 hover:scale-105"
                 />
                 <div className="absolute bottom-6 left-6 bg-white/90 text-blue-700 px-4 py-2 rounded-lg text-sm font-medium shadow-lg backdrop-blur-sm">
                   Building Bridges Across Borders
